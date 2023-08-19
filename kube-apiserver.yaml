@@ -96,7 +96,7 @@ spec:
     - mountPath: /var/lib/k8s_audit/audit-policy.yaml
       name: audit
       readOnly: true
-    - mountPath: /var/lib/audit/audit.log
+    - mountPath: /var/log/audit/audit.log
       name: audit-log
       readOnly: false
   hostNetwork: true
